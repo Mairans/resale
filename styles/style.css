@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Knewave", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    background: url('../images/header.jpeg');
+    background-size: cover;
+    background-position: 20% 50%;
+    padding: 250px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    font-size: 4.625em;
+    color: #52ff00;
+}
+
+.item:hover {
+    color: #490574;
+}
+
+.rectangle {
+    background-color: #490574;
+    height: 50px;
+}
+
+.tutorial {
+    background-color: #490574;
+}
+
+.tutorial .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial .container span{
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #52ff00;
+    padding: 5px 5px 10px 5px;
+    cursor: pointer;
+
+}
+.tutorial .container p{
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    padding: 5px;
+    color: #3f8f1d;
+}
+
+.title2 {
+    font-size: 4em;
+    color: #52ff00;
+    padding: 50px 0;
+}
+
+.main {
+    background: url('../images/back.jpeg');
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+
+.main .container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main span {
+    font-size: 3em;
+    color: #52ff00;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: black;
+}
+
+.west {
+    transform: rotate(5deg);
+}
+
+.second {
+    background: url('../images/back.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+
+.title {
+    font-size: 5.625em;
+    color: #0f0614;
+}
+
+.second .container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 300px;
+
+}
+
+.second img {
+    transform: scale(2);
+}
+
+.third {
+    background-color: #490574;
+}
+
+.third .container {
+    display: flex;
+    flex-direction: column;
+}
+.third .container span{
+    font-size: 4em;
+    color: #52ff00;
+}
+.third .container img{
+    font-size: 4em;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanye {
+    padding-top: 50px;
+    background-color: #1330b3;
+}
+
+.kanye .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.boobs:hover {
+    color: #490574;
+}
+
+.brbr {
+font-size: 4em;
+margin-bottom: 50px;
+}
